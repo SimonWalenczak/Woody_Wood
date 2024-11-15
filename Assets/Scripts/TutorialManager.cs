@@ -26,7 +26,6 @@ public class TutorialManager : MonoBehaviour
 
     private void Update()
     {
-        // Print text by text for tuto
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if(_index < _tutoText.Count)
@@ -39,7 +38,7 @@ public class TutorialManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && _canBePaused) //Be sure you can't open Pause Panel before tuto's end.
+        if (Input.GetKeyDown(KeyCode.Escape) && _canBePaused)
         {
             if (!_IsPaused)
             {
