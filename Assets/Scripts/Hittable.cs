@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using CharacterController = Character.CharacterController;
 
 public class Hittable : MonoBehaviour
 {
